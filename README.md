@@ -14,24 +14,24 @@ The quickest way to get running is to `git clone` and `cd` into this repo's root
 
 **Install dependencies**
 ```console
-pipenv install
+$ pipenv install
 ```
 
 **Activate virtual environment**
 ```console
-pipenv shell
+$ pipenv shell
 ```
 
 **Run script**
 ```console
-python train-classifier.py
+$ python train-classifier.py
 ```
 
 ### Explore
 To more easily explore the output from the classifier run the script in Python's interactive mode with the following command:
 
 ```console
-python -i train-classifier.py
+$ python -i train-classifier.py
 ```
 
 ### Fit Classifier on Other Data
